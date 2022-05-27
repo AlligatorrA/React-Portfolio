@@ -50,42 +50,65 @@ const About = () => {
                 </div>
             </div>
             {/* ************ */}
-            <div className="home ">
-                <div className="home_left">
+            <div className="all_center ">
+                <div className="">
                     <h2 className='_name'>Skills</h2>
-                    <div className="experiences_card_parent all_center">
-                        <div className="spacer_half"></div>
-                        <div className="experiences_card_child1 all_center">
-                            <i className="fa-brands fa-html5 marg05px"></i>
-                            <p>HTMl5 </p>
-                            <label htmlFor=""> 60%
-                                <input type="range" value='60 %' /></label>
+                    <div className="skills_bar box_shadow">
+                        <div className="bar">
+                            <div className="info">
+                                <span> <i className="fa-brands fa-html5 marg05px"></i> HTMl5</span>
+                            </div>
+                            <div className="progress_line html">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="experiences_card_child2 all_center">
-                            <i className="fa-brands fa-css3 marg05px"></i>
-                            <p>CSS </p>
+                        <div className="bar">
+                            <div className="info">
+                                <span> <i className="fa-brands fa-css3 marg05px"></i> CSS</span>
+                            </div>
+                            <div className="progress_line css">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="experiences_card_child1 all_center">
-                            <i className="fa-brands fa-js marg05px"></i>
-                            <p>JavaScript </p>
+                        <div className="bar">
+                            <div className="info">
+                                <span><i className="fa-brands fa-github marg05px"></i> github</span>
+                            </div>
+                            <div className="progress_line github">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="experiences_card_child2 all_center">
-                            <i className="fa-brands fa-react marg05px"></i>
-                            <p>React js </p>
+                        <div className="bar">
+                            <div className="info">
+                                <span> <i className="fa-brands fa-js marg05px"></i> JavaScript</span>
+                            </div>
+                            <div className="progress_line javaScript">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="experiences_card_child1 all_center">
-                            <i className="fa-brands fa-bootstrap marg05px"></i>
-                            <p>bootstrap </p>
+                        <div className="bar">
+                            <div className="info">
+                                <span> <i className="fa-brands fa-react marg05px"></i> React js</span>
+                            </div>
+                            <div className="progress_line react">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="experiences_card_child2 all_center">
-                            <i className="fa-brands fa-github marg05px"></i>
-                            <p>github </p>
+                        <div className="bar">
+                            <div className="info">
+                                <span><i className="fa-brands fa-bootstrap marg05px"></i> bootstrap</span>
+                            </div>
+                            <div className="progress_line bootstrap">
+                                <span></span>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
-            <div className="home ">
-                <div className="home_left">
+            <div className="all_center ">
+                <div className=" services">
                     <h2 className='_name'>Services</h2>
                     <div className="cards">
                         <div className="about_card all_center coln_flex cur hover box_shadow ">
