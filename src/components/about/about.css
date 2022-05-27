@@ -1,0 +1,135 @@
+.skills_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 1rem;
+    padding: 1rem 1.6rem;
+    width: 27rem;
+    background-color: var(--color-primary-varient);
+
+}
+
+.skills_bar .bar {
+    margin: 10px 5px;
+    width: 100%;
+
+}
+
+.skills_bar .info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.progress_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    height: 10px;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: var(--color-bg-varient);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+        0px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.progress_line span {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    border-radius: 2rem;
+    background-color: var(--color-white);
+}
+
+.progress_line.bootstrap span {
+    width: 75%;
+}
+
+.progress_line.react span {
+    width: 70%;
+}
+
+.progress_line.javaScript span {
+    width: 55%;
+}
+
+.progress_line.github span {
+    width: 65%;
+}
+
+.progress_line.css span {
+    width: 60%;
+}
+
+.progress_line.html span {
+    width: 80%;
+}
+
+.progress_line span::before {
+    text-align: start;
+    position: absolute;
+    content: '';
+    right: 0;
+    top: -7px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+}
+
+.progress_line span::after {
+    position: absolute;
+    font-size: medium;
+    right: 0;
+    top: -32px;
+    color: #fff;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 2px;
+}
+
+.progress_line.bootstrap span::after {
+    content: '75%';
+}
+
+.progress_line.react span::after {
+    content: '70%';
+}
+
+.progress_line.javaScript span::after {
+    content: '55%';
+}
+
+.progress_line.github span::after {
+    content: '65%';
+}
+
+.progress_line.css span::after {
+    content: '60%';
+}
+
+.progress_line.html span::after {
+    content: '80%';
+}
+
+.services {
+    padding: 0 0 3rem 0;
+}
+
+@media screen and (max-width:900px) {
+
+    .skills_bar {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .skills_bar {
+        width: 12rem;
+    }
+}

@@ -1,0 +1,43 @@
+.top_nav {
+    max-width: 50rem;
+    margin: .7em auto;
+}
+
+.top_nav li>i {
+    display: none;
+    font-size: 20px;
+}
+
+.top_nav li>span {
+    display: block;
+    font-size: 19px;
+}
+
+.logo {
+    background-color: black;
+}
+
+.footer {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--color-bg-varient);
+    padding: 0.2rem;
+}
+
+.footer ul {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:330px) {
+    .top_nav li>span {
+        display: none;
+        font-size: 20px;
+    }
+
+    .top_nav li>i {
+        display: block;
+        font-size: 20px;
+    }
+
+
+}
