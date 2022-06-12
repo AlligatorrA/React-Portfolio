@@ -154,7 +154,7 @@ const Home = () => {
                             <div className="all_center">
                                 <a href="https://github.com/AlligatorrA/weather-app.git">
                                     <button className='btn'>github</button></a>
-                                <a href="weather-app-two-gold.vercel.app">
+                                <a href='https://weather-app-two-gold.vercel.app/'>
                                     <button className='btn'>live demo</button></a>
                             </div>
                         </div>

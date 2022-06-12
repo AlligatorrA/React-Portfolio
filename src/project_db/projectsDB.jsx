@@ -7,6 +7,16 @@ import lucky from '../assets/Lucky.jpg'
 import palindeom from '../assets/palindeom.webp'
 import component from '../assets/component.png'
 import spotify from '../assets/spotify.png'
+import twitter from '../assets/twitter_ui.png'
+import cash from '../assets/cash_register.png'
+import profiltLoss from '../assets/profit_loss.png'
+import Originals from '../assets/TheOriginals.png'
+import favWeb from '../assets/favWeb.png'
+import goodBooks from '../assets/goodBook.png'
+import emoji from '../assets/emoji.png'
+import speakBritish from '../assets/britishSpeak.png'
+import banana from '../assets/banana.png'
+import knowMe from '../assets/knowMe.png'
 const projects = [
     {
         id: 'pro1',
@@ -58,7 +68,7 @@ const projects = [
     },
     {
         id: 'pro7',
-        url: musicPlayer,
+        url: twitter,
         title: 'Twitter clone UI',
         desc: "Twitter clone UI design with Html CSS and js",
         github: 'https://github.com/AlligatorrA/Twitter-UI.git',
@@ -74,7 +84,7 @@ const projects = [
     },
     {
         id: 'pro9',
-        url: musicPlayer,
+        url: cash,
         title: 'Cash Register',
         desc: "This is a cash register manager. It indicates the money needed to be returned. buit-in javaScript.",
         github: 'https://github.com/AlligatorrA/Cash-Register-Manager.git',
@@ -90,7 +100,7 @@ const projects = [
     },
     {
         id: 'pro11',
-        url: musicPlayer,
+        url: profiltLoss,
         title: 'Profit and loss',
         desc: "This app tells you how much profit or loss you have made along with percentage based on current price, number of Products and its purchase price.",
         github: 'https://github.com/AlligatorrA/ProfitAndLoss.git',
@@ -98,7 +108,7 @@ const projects = [
     },
     {
         id: 'pro12',
-        url: musicPlayer,
+        url: Originals,
         title: 'The Originals Fan Game',
         desc: "This quiz is for `The Originals` webseries fan if you are fan of the great evil `klaus Mikealson` .  Built-in NodeJs.",
         github: 'https://github.com/AlligatorrA/TheOriginalsFansGame.git',
@@ -106,7 +116,7 @@ const projects = [
     },
     {
         id: 'pro13',
-        url: musicPlayer,
+        url: favWeb,
         title: 'Favourite Webseries',
         desc: "List of Webseries.Webseries You Should Watch if you are fan of Action or Bio-World or Science-Fiction. Built-in React js.",
         github: 'https://github.com/AlligatorrA/Fav-Webseries.git',
@@ -114,7 +124,7 @@ const projects = [
     },
     {
         id: 'pro14',
-        url: musicPlayer,
+        url: goodBooks,
         title: 'Good Books',
         desc: "Books you Should read If you are fan of Thrill or Biotechnology or Action. Built using HTML, CSS and React js.",
         github: 'https://github.com/AlligatorrA/GoodBooks.git',
@@ -130,7 +140,7 @@ const projects = [
     },
     {
         id: 'pro16',
-        url: musicPlayer,
+        url: emoji,
         title: 'Emoji Dictionary',
         desc: "Try this Emoji Dictionary. It returns the Meaning of Emoji. Built-in React js. ",
         github: 'https://github.com/AlligatorrA/csb-iwxwv.git',
@@ -138,7 +148,7 @@ const projects = [
     },
     {
         id: 'pro17',
-        url: musicPlayer,
+        url: speakBritish,
         title: 'Talk British',
         desc: "Are you fan of British accent? Try this App and learn how to speak British. Built-in vanilla js.",
         github: 'https://github.com/AlligatorrA/Talk-British.git',
@@ -146,7 +156,7 @@ const projects = [
     },
     {
         id: 'pro18',
-        url: musicPlayer,
+        url: banana,
         title: 'Banana Talk',
         desc: "Try this Banana Talk App. It returns the language in Banana. Built-in javaScript.",
         github: 'https://github.com/AlligatorrA/Banana-speak.git',
@@ -154,7 +164,7 @@ const projects = [
     },
     {
         id: 'pro19',
-        url: musicPlayer,
+        url: knowMe,
         title: 'How Much you know me',
         desc: "How much you know me. Built-in NodeJs.",
         github: 'https://github.com/AlligatorrA/end-game.git',
