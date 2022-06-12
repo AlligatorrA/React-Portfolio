@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import avatar from '../../assets/avtar.png'
+import avatar from '../../assets/profile.png'
+import resume from '../../assets/resume.pdf'
 const About = () => {
     return (
         <>
@@ -46,7 +47,7 @@ const About = () => {
                     </div>
 
                     <div className="spacer_half"></div>
-                    <button className='btn'>Download CV</button>
+                    <a className='btn' href={resume}>Download CV</a>
                 </div>
             </div>
             {/* ************ */}
