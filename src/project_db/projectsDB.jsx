@@ -30,7 +30,7 @@ const projects = [
         title: 'weather-app',
         desc: "Tells the current weather, temp and date with random quotes and random images",
         github: 'https://github.com/AlligatorrA/weather-app.git',
-        live: 'weather-app-two-gold.vercel.app',
+        live: 'https://weather-app-two-gold.vercel.app/',
     },
     {
         id: 'pro4',
@@ -38,7 +38,7 @@ const projects = [
         title: 'Comoponent-library',
         desc: "Components library with Badges, Avtar, alert,round-img Card,modals form etc...",
         github: 'https://github.com/AlligatorrA/weather-app.git',
-        live: 'weather-app-two-gold.vercel.app',
+        live: 'https://alli-dark-component-library.netlify.app/',
     },
     {
         id: 'pro5',
@@ -46,7 +46,7 @@ const projects = [
         title: 'music player',
         desc: "music player UI/UX design in react js users friendly and resposive",
         github: 'https://github.com/AlligatorrA/music-app.git',
-        live: '',
+        live: 'https://ar-music-app.netlify.app/',
     },
     {
         id: 'pro6',
@@ -54,7 +54,7 @@ const projects = [
         title: 'Spotify clone UI',
         desc: "Spotify clone UI design with Html CSS and js",
         github: 'https://github.com/AlligatorrA/Spotify.git',
-        live: 'spotify-clone-alli.netlify.app/',
+        live: 'https://spotify-clone-alli.netlify.app/',
     },
     {
         id: 'pro7',
@@ -62,7 +62,7 @@ const projects = [
         title: 'Twitter clone UI',
         desc: "Twitter clone UI design with Html CSS and js",
         github: 'https://github.com/AlligatorrA/Twitter-UI.git',
-        live: 'allitwitterui.netlify.app',
+        live: 'https://allitwitterui.netlify.app/',
     },
     {
         id: 'pro8',
