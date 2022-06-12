@@ -21,8 +21,8 @@ const Projects = () => {
                                         {project.desc}
                                     </div>
                                     <div className="all_center">
-                                        <a href={project.github} target="_blank" rel="noopener noreferrer"><button className='btn'>github</button></a>
-                                        <a href={project.live} target="_blank" rel="noopener noreferrer"> <button className='btn'>live demo</button></a>
+                                        <a href={project.github} ><button className='btn'>github</button></a>
+                                        <a href={project.live}> <button className='btn'>live demo</button></a>
                                     </div>
                                 </div>
                             ))

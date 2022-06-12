@@ -4,8 +4,10 @@ import videoLibrary from '../../assets/video-library.png'
 import Ecom from '../../assets/E-com.png'
 import weather from '../../assets/weather.png'
 import avatar from '../../assets/avtar.png'
+// import avatar from '../../assets/avtar2.png'
 import Contact from '../contact/Contact'
 import { NavLink } from 'react-router-dom'
+import resume from '../../assets/resume.pdf'
 const Home = () => {
     return (
         <>
@@ -13,16 +15,16 @@ const Home = () => {
                 <div className="home_left  just_center coln_flex">
                     Hy! I am
                     <h1 className='_name'>Anand Raj</h1>
-                    <p>I am a Web Developer. I design websites using React turning `a beautiful single page application`, I am here to give your thought a beautiful 2D shape!</p>
+                    <p>I am a Web Developer. I design websites using React  `a beautiful single page application`, I am here to give your thought a beautiful 2D shape!</p>
                     <div className="spacer_01"></div>
                     <div className="all_center">
-                        <button className='btn'>Download CV</button>
+                        <a className='btn' href={resume}>Download CV</a>
                         <NavLink to='/Contact' className='btn'>lets Talk</NavLink>
                     </div>
                 </div>
-                <div className="home_right all_center ">
-                    <picture className='avatar cur'>
-                        <img className='avatar hover ' src={avatar} alt="profile_pic" loading='lazy' />
+                <div className="home_right all_center hide_img">
+                    <picture className='avatar cur '>
+                        <img className='avatar hover home_images ' src={avatar} alt="profile_pic" loading='lazy' />
                     </picture>
                 </div>
             </div>
@@ -31,8 +33,8 @@ const Home = () => {
                 <div className="home_leftNright">
                     <h2 className='_name'>About Me</h2>
                 </div>
-                <div className="home_left ">
-                    <picture className='home_images_box cur'>
+                <div className="home_left hide_img ">
+                    <picture className='home_images_box cur '>
                         <img className='avatar hover rotate box_shadow' src={avatar} alt="profile_pic" loading='lazy' />
                     </picture>
                 </div>
@@ -117,13 +119,13 @@ const Home = () => {
                                 <img className='home_images hover' src={videoLibrary} alt="profile_pic" loading='lazy' />
                             </picture>
                             <div className="project_card_child all_center  coln_flex">
-                                <h3>Video Library</h3>
-                                Lorem ipsum dolor sit amet consectedi quam?
-                                Lorem ipsum dolor
+                                <h3>A|R Video Library</h3>
+                                This video library in made in react with some of the awesome features.
                             </div>
                             <div className="all_center">
-                                <button className='btn'>github</button>
-                                <button className='btn'>live demo</button>
+                                <a href='https://github.com/AlligatorrA/ar-video-library.git'><button className='btn'>github</button></a>
+                                <a href="https://ar-video-library.netlify.app/">
+                                    <button className='btn'>live demo</button></a>
                             </div>
                         </div>
                         <div className="project_card all_center coln_flex cur hover box_shadow ">
@@ -131,13 +133,14 @@ const Home = () => {
                                 <img className='home_images hover' src={Ecom} alt="profile_pic" loading='lazy' />
                             </picture>
                             <div className="project_card_child all_center  coln_flex">
-                                <h3>Video Library</h3>
-                                Lorem ipsum dolor sit amet consectedi quam?
-                                Lorem ipsum dolor lorem lorem
+                                <h3>A|R e-com</h3>
+                                This project is made using react with awsome feature using react components
                             </div>
                             <div className="all_center">
-                                <button className='btn'>github</button>
-                                <button className='btn'>live demo</button>
+                                <a href="https://github.com/AlligatorrA/e-commerce-React.git">
+                                    <button className='btn'>github</button></a>
+                                <a href="https://alli-ar-ecom.netlify.app">
+                                    <button className='btn'>live demo</button></a>
                             </div>
                         </div>
                         <div className="project_card all_center coln_flex cur hover box_shadow ">
@@ -145,13 +148,14 @@ const Home = () => {
                                 <img className='home_images hover' src={weather} alt="profile_pic" loading='lazy' />
                             </picture>
                             <div className="project_card_child all_center  coln_flex">
-                                <h3>Video Library</h3>
-                                Lorem ipsum dolor sit amet consectedi quam?
-                                Lorem ipsum dolor
+                                <h3>Weather app</h3>
+                                Tells the current weather, temp and date with random quotes and random images
                             </div>
                             <div className="all_center">
-                                <button className='btn'>github</button>
-                                <button className='btn'>live demo</button>
+                                <a href="https://github.com/AlligatorrA/weather-app.git">
+                                    <button className='btn'>github</button></a>
+                                <a href="weather-app-two-gold.vercel.app">
+                                    <button className='btn'>live demo</button></a>
                             </div>
                         </div>
                     </div>
