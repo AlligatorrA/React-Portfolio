@@ -43,11 +43,11 @@ const Home = () => {
                         <div className="about_card all_center coln_flex cur hover box_shadow ">
                             <i className="fa-solid fa-certificate marg05px"></i>
                             <h2>Experience</h2>
-                            <p>1+ years </p>
+                            <p>Fresher </p>
                         </div>
                         <div className="about_card all_center coln_flex cur hover box_shadow ">
                             <i className="fa-solid fa-certificate marg05px"></i>
-                            <h2>Experience</h2>
+                            <h2>learning</h2>
                             <p>1+ years </p>
                         </div>
                         <NavLink to='/Projects'>
