@@ -22,11 +22,14 @@ const Contact = () => {
                 <div className="spacer_half"></div>
                 <div className="contact all_center ">
                     <div className="cards coln_flex">
-                        <div className="about_card all_center coln_flex cur hover">
-                            <i className="fa-brands fa-linkedin-in marg05px"></i>
-                            <h2>linkedIn</h2>
-                            <p>send a message</p>
-                        </div>
+
+                        <a className='contact_a' href="https://www.linkedin.com/in/anand-raj-b10599171/">
+                            <div className="about_card all_center coln_flex cur hover">
+                                <i className="fa-brands fa-linkedin-in marg05px"></i>
+                                <h2>linkedIn</h2>
+                                <p>send a message</p>
+                            </div>
+                        </a>
                         <a className='contact_a' href="https://twitter.com/messages/compose?recipient_id=@Aryakkhauj">
                             <div className="about_card all_center coln_flex cur hover">
                                 <i className="fa-brands fa-twitter marg05px"></i>
